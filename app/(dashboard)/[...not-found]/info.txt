@@ -1,0 +1,1 @@
+* The functionality of [...] is a catch all functionality. Will catch all not existing routes.

@@ -3,6 +3,18 @@ import React from 'react'
 
 export const dynamicParams = true;
 
+//Fetching a specific ticket and using its name as metadata
+export async function generateMetadata({ params }) {
+const id = params.id;
+
+const res = await fetch(`http://localhost:4000/tickets/${id}`);
+const ticket = await res.json()
+
+    return {
+        title: `Nir Helpdesk | ${ticket.title}`
+    }
+}
+
 /* 
 Two methods of working:
 We could either fetch a ticket one by one, or we can fetch all the tickets in advance, thus
