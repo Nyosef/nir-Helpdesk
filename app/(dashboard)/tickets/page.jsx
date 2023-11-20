@@ -6,6 +6,11 @@ import Loading from '../loading'
 // Suspense is only around the part that we are 'waiting to be loaded'
 // Suspense together with the fallback shows it only in the relevant area ( without the nav...)
 
+//overweriting metadata for page
+export const metadata = {
+  title: 'JOEJOE HELPDESK',
+}
+
 export default function Tickets() {
   return (
     <main>
