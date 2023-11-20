@@ -1,0 +1,3 @@
+To run the db json-server must be installed globally
+command should be ran:   json-server --watch --port 4000 ./_data/db.json
+
