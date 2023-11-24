@@ -1,0 +1,19 @@
+
+
+* API folder for any resource I need endpoints for
+    * Must be called route.js inside of it
+    * Cant be in the same directory as a page.jsx file (conflict)
+    * Also in routes we have static or dynamic route handlers. (Cached(static) or not cached(dynamic). Must be decided)
+
+
+https://nextjs.org/docs/app/building-your-application/routing/route-handlers
+
+* Next point
+
+
+
+
+General knowledge:
+
+* folders with (), are ignored in the route system
+* 
