@@ -1,0 +1,4 @@
+
+* Access to supabase is using - createRouteHandlerClient - used to connect to supabase using next route handler(RouteHandler)
+
+* createRouteHandlerClient doesnt have access to the cookies of the browser, to get AUTH cookie it needs. For that we need to import cookies from next/headers and pass it to it.
