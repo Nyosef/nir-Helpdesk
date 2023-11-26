@@ -1,2 +1,3 @@
 * because (dashboard) has parantheses, we ignore the folder as a route and everything remains normal like they are in the main folder
-* 
+
+* createServerComponentClient - Access to supabase insidse of a ServerComponent 
