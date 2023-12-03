@@ -1,6 +1,10 @@
 import './globals.css'
 import { Rubik } from 'next/font/google'
 
+// Making Next.js to not try to build the website staticaly, but to do it dynamically.
+//This is because we are using a lot of functionality, that does not allow the site to work staticaly ( cookies and so forth..)
+export const dynamic = 'force-dyanmic';
+
 const rubik = Rubik({ subsets: ['latin'] })
 
 export const metadata = {
